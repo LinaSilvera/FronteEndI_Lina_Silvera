@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+
+/* header */
+
+/* header - top */
+
+header .top{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    height: 20px;
+}
+
+header .top .slogan{
+    width: 45%;
+    text-align: center;
+}
+
+.top .idioma_precio{
+    display: flex;
+    justify-content: space-around;
+}
+
+.top .idioma_precio p{
+    margin-right: 15px;
+}
+
+/* header - nav */
+
+header nav{
+    background-color:  #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+
+nav .nav_logo{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav .nav_logo img{
+    width: max-content;
+}
+
+nav .nav_navigationBar {
+    list-style: none;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_navigationBar li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* main */
+
+main{
+    width: 100%;
+}
+
+/* main - slide */
+
+main .slide{
+    width: 100%;
+    height: 409px;
+    margin-bottom: 50px;
+    background-image: url(/img/bow-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+main .slide .saludo{
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    height: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .slide .saludo p{
+    font-size: 30px;
+    line-height: 35px;
+}
+
+main .slide .descuento{
+    color: #3C2313;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+main .slide .slide_btn{
+    height: 50px;
+    background-color: #F0A83E;
+    width: 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 9%;
+}
+
+main .slide .slide_btn a{
+    color: white;
+    text-decoration: none;
+    line-height: 19px;
+}
+
+/* main - destacados */
+
+main .destacados{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.destacados .destacados_title{
+    margin-bottom: 20px;
+}
+
+.destacados .destacados_cards{
+    display: flex;
+    justify-content: center;
+}
+
+.destacados .destacados_cards .card{
+    background-color: #FBFAF6;
+    margin-right: 10px;
+}
+
+.destacados .destacados_cards .card p{
+    color: #F0A83E;
+}
+
+/* main -contactenos */
+
+main .contactenos{
+    width: 100%;
+    height: 264px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.contactenos .form_contactenos{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contactenos .form_contactenos h1{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+    margin-bottom: 20px;
+}
+.contactenos .form_contactenos .input_contactenos{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 29px;
+    background-color: #3C2313;;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding-left: 2%;
+}
+
+.contactenos .form_contactenos .input_contactenos::placeholder{
+    color: white;
+}
+
+.contactenos .form_contactenos .form_btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactenos .form_contactenos .form_btn .form_btn_reset, .form_btn_send{
+    border-radius: 15px;
+    width: 110px;
+    height: 34px;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+} 
+
+
+.contactenos .form_contactenos .form_btn .form_btn_reset{
+    background-color: #8A8787;
+} 
+
+.contactenos .form_contactenos .form_btn .form_btn_send{
+    background-color: #F0A83E;
+}
+
+/* main - suscription */
+
+main .suscription{
+    width: 100%;
+    height: 60px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-around;
+}
+
+.suscription .novedades{
+    width: 45%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suscription .novedades img{
+    margin-right: 10px;
+}
+
+.suscription .novedades h1{
+    color: white;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.suscription .form_suscription{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suscription .form_suscription .suscription_email{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_suscription .suscription_email input{
+    background: #FFFFFF;
+    border-radius: 15px;
+    height: 40px;
+    border-style: none;
+    width: 70%;
+    padding-left: 2%;
+}
+
+.form_suscription .suscription_email .suscription_email_btn{
+    width: 20%;
+    height: 34px;
+    background: #3C2313;
+    border-radius: 15px;
+    color: white;
+    border-style: none;
+}
+
+/* footer */
+
+footer{
+    height: 300px;
+    width: 100%;
+}
+footer .contacto{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 284px;
+}
+
+.contacto .agenda{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto .agenda, .footer_logo{
+    width: 45%;
+}
+
+
+.contacto .agenda ul{
+    list-style: none;
+    color: white;
+}
+
+.contacto .agenda ul{
+    list-style: none;
+    color: white;
+}
+
+.contacto .agenda ul li{
+    display: flex;
+    align-items: center;
+}
+
+.contacto .agenda ul li .li_text h5{
+    font-size: 10px;
+}
+
+.agenda ul li .li_img{
+    margin-right: 20px;
+}
+
+
+.contacto .footer_logo{
+    text-align: center;
+}
+
+/* footer - derechos */
+
+footer .derechos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    line-height: 12px;
+    background-color: black;
+    color: white;   
+}

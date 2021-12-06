@@ -1,0 +1,640 @@
+body{font-family: 'Be Vietnam Pro', sans-serif;
+}
+/*HEADER*/
+.padre{width: 100%;
+    height: 174px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.padre .menunav #check, .bar_btn{
+    display: none;
+}
+
+.logo{width: 20%;
+      height: 24px;
+}
+
+.menu_nav li {
+    text-decoration: none;
+    display: inline;
+    margin-right: 28px;
+}
+
+.menunav .menu_nav{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.menu_nav li a{
+    text-decoration: none;
+    color: #242E52;
+    font-family: Be Vietnam;             
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 500;
+    
+}
+
+.btn_nav {
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 134px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+.btn_nav a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+/*main*/
+.main {width: 100%;
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    
+}
+
+.main .main_left{
+    
+    width: 45%;
+    height: 525px;
+}
+
+
+h1{font-size: 58px;
+   font-weight: bold;
+}
+
+.main div p{
+    height: 71px;
+    top: 226px;
+}
+
+.grafico{ 
+    height: 525px;
+    width: 45%;
+    background-image: url(/img/bg-tablet-pattern.svg);
+
+}
+
+.grafico img{ 
+    width: 100%;
+}
+
+.second{
+    display: flex;
+}
+
+.second h2{
+    font-size: 36px;
+    font-style: bold;
+    text-align: left;
+}
+
+/* articles */
+.articles{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.articles  .article_left, .article_right{
+    width: 45%;
+}
+
+/* article left */
+
+.articles  .article_left h2{
+    margin: auto;    
+    color: #232851;
+}
+
+/* article right */
+
+.articles  .article_right .article .article_btn{
+    display: flex;
+}
+
+
+.articles  .article_right .article h4{
+    margin: auto auto  auto 2%;
+    color: #323851;
+}
+
+.articles  .article_right .article .article_btn button{
+
+    width: 69px;
+    height: 43px;
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.articles  .article_right .article .article_description{
+    width: 80%;
+}
+
+.articles  .article_right .article .article_description p{
+    width: 80%;
+    color: #B3B2B7;
+    margin-left: 19%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* testeimonios */
+
+.testimonios{
+    width: 95%;
+    height: 478px;
+    margin-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonios .testimonios_title{
+    margin-bottom: 74px;
+}
+
+.testimonios .testimonios_title h2{
+    text-align: center;
+    color: #242E53;
+    font-size: 39px;
+
+}
+
+.testimonios .cards{
+    width: 100%;
+    height: 219px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.testimonios .cards .card{
+    width: 60%;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+.testimonios .cards .card p{
+    text-align: center;
+}
+
+.testimonios .cards .card img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.testimonios .cards .card .card_description{
+    margin-top: 20%;
+}
+
+.testimonios .cards .card .card_description h5{
+    color: #3F4868;
+}
+
+.testimonios .btn_testimonios{
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 134px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonios .btn_testimonios a{
+    color: white;
+    text-decoration: none;    
+}
+
+/* slogan */
+
+.slogan{
+    width: 100%;
+    height: 224px;
+    background-color: #F3613C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.slogan .slogan_title { 
+    width: 40%;
+    margin-left: 4%;
+}
+
+.slogan .slogan_title h1{ 
+    font-size: 40px;
+    color: white;
+}
+
+
+.slogan .slogan_btn {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    height: 44px;
+    width: 134px;
+    display: flex;
+    align-items: center;
+    margin-right: 4%;
+}
+
+
+.slogan .slogan_btn a{
+    color: #F3603B;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    height: 247px;
+    color: white;
+    background-color: black;
+}
+
+footer .footer_elements{
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+}
+
+footer .footer_elements .footer_logo_redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+}
+
+
+footer .footer_elements .footer_logo_redes img{
+    padding-left: 5px;
+}
+
+footer .footer_elements .footer_logo_redes .footer_image{
+    margin-bottom: 20%;
+    filter: invert(100%);
+}
+
+footer .footer_elements .footer_list{
+    display: flex ;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+footer .footer_elements .footer_list .footer_list_left ul, .footer_list_right ul{
+    list-style: none;
+    padding: 0px;
+}
+
+footer .footer_elements .footer_list .footer_list_right ul{
+    list-style: none;
+    margin: 0px;
+}
+
+footer .footer_elements .footer_list .footer_list_left li, .footer_list_right li{
+    margin-bottom: 10px;
+}
+footer .footer_elements .footer_list .footer_list_left li a, .footer_list_right li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* formulario*/
+
+footer .footer_elements .formulario{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+footer .footer_elements .formulario .fomulario_input{
+    width: 60%;
+}
+
+footer .footer_elements .formulario .fomulario_input .email{
+    width: 100%;
+    height: 44px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+footer .footer_elements .formulario .fomulario_button{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .footer_elements .formulario .fomulario_button button{
+    color: white;
+    background-color: #F3603B;
+    border: none;
+    border-radius: 50px;
+    height: 42px;
+    width: 63px;
+}
+
+/* Derechos */
+
+footer .derechos{
+    text-align: end;
+    padding-right: 4%;
+    color: #8C8C94;
+}
+
+/* mediaquerty */
+
+@media only screen and (max-width: 375px) {
+
+    /* reset desktop */
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    .padre .btn_nav{
+        display: none;
+    }
+
+    .padre .menunav .menu_nav, 
+    .menunav .menu_nav li, .menunav .bar_btn{
+        display: block
+    }
+
+    /* header mobile     */
+
+    .padre{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10px;
+    }
+
+    .padre .menunav .menu_nav{
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        top: 100px;
+        left: 0px;
+        background: rgba(0, 0, 0, .95);
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .padre .menunav .menu_nav li{
+        display: none;
+        line-height: 10px;
+        margin: 40px 0px;
+        transition: all .5s;
+    }
+
+    .padre .menunav .menu_nav li a{
+        color: white;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600px;
+    }
+
+    .padre .menunav .menu_nav li a.active, .padre .menunav .menu_nav li a:hover {
+        color: red;
+        transition: .3s;
+    }
+
+    .padre .menunav .bar_btn{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .padre .menunav #check:checked ~ .menu_nav{ 
+        height: 100vh;
+    }
+
+    .padre .menunav #check:checked ~ .menu_nav li{
+        display: block;
+    }
+
+    /* main */
+
+    .main{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+
+    .main .main_left {
+        width: 100%;
+        height: 45%;
+        text-align: center;
+    }
+
+    .main .main_left h1{
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    .main .main_left p{
+        margin-bottom: 50px;
+    }
+
+    .main .main_left .btn_nav{
+        margin: auto;
+    }
+
+
+    .main .grafico {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* articles */
+
+    .articles{
+        flex-direction: column;
+        height: unset;
+        margin-bottom: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .articles .article_right .article .article_description p {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .articles .article_left{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .articles .article_left h2{
+        margin-bottom: 25px;
+    }
+
+    .articles .article_right{
+        width: 100%;
+    }
+
+    .articles .article_right .article{
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .articles .article_right .article .article_btn{
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .articles .article_right .article .article_btn{
+    background-color: #ffdad4;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+    .articles .article_right .article .article_description {
+        width: 100%;
+    }
+
+    /* testimonios */
+
+    .testimonios{
+        height: unset;
+    }
+
+    .testimonios .cards{
+        flex-direction: column;
+        align-items: center;
+        height: unset   ;
+        margin-bottom: 0px;
+    }
+
+
+    .testimonios .cards .card{
+        margin-bottom: 50px;
+    }
+
+    .testimonios .btn_testimonios{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* slogan */
+
+    .slogan{
+        flex-direction: column;
+    }
+
+    .slogan .slogan_title{
+        width: 50%;
+        margin: auto;
+    text-align: center;
+    }
+
+    .slogan .slogan_title h1 {
+        font-size: 24px;
+    }
+
+    .slogan .slogan_btn {
+        margin: auto;
+    }
+
+    /* footer */
+
+    footer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: unset;
+    }
+
+    footer .footer_elements{
+        flex-direction: column-reverse;
+        height: unset;
+        margin-bottom: 30px;
+    }
+
+    footer .footer_elements .footer_logo_redes {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    footer .footer_elements .footer_logo_redes .footer_image{
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    footer .footer_elements .footer_logo_redes .footer_redes{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer .footer_elements .footer_list{
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 40px;
+
+    }
+
+    footer .footer_elements .formulario{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    footer .footer_elements .formulario .fomulario_input{
+        width: unset;
+        margin-right: 10px;
+    }
+
+    footer .footer_elements .formulario .fomulario_button{
+        width: unset;
+    }
+
+    footer .derechos{
+        padding: 0px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+  }
+
+
+

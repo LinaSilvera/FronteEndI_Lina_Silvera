@@ -1,0 +1,24 @@
+img {display:block; margin:auto; background-color:gray;}
+****centrado de las imagenes*****
+
+body {
+    margin:0;
+    padding:0;
+    background: #BF8B85;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+header{background-color: gray;
+       background-image:url('/root/img/microscopio_23-2148540553.jpg');
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+
+h1 {color:blue;text-align: center;background-color: gray;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+h2{color: blue;background-color:gray ;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+footer{color:blue;
+       text-align: center; 
+
+}
